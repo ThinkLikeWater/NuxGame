@@ -32,7 +32,7 @@ docker build -t playwright-test .
 ```
 docker-compose up -d
 ```
-You can find your test report using (you also can find report on yor local machine here playwright-report/index.html )
+You can get your test report using (you also can find report on yor local machine here playwright-report/index.html )
 
 ```
 npx playwright show-report
