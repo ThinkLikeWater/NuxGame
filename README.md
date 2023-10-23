@@ -37,7 +37,7 @@ You can get your test report using (you also can find report on yor local machin
 ```
 npx playwright show-report
 ```
-Location of test - PlayWrightVSCode/tests/wiki-test.spec.ts
+Location of test - NuxGame/tests/wiki-test.spec.ts
 
 # Do not forget to provide your credentials into .env (location of file is root) file like this
 ```
