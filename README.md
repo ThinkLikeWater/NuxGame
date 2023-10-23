@@ -39,7 +39,7 @@ npx playwright show-report
 ```
 Location of test - NuxGame/tests/wiki-test.spec.ts
 
-# Do not forget to provide your credentials into .env (location of file is root) file like this
+# Do not forget to provide your Wiki credentials into .env (location of file is root) file like this
 ```
 USERNAME=your_username
 PASSWORD=your_password
