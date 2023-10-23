@@ -1,0 +1,6 @@
+version: '3'
+services:
+  playwright:
+    image: playwright-test
+    volumes:
+      - ./playwright-report:/app/playwright-report
