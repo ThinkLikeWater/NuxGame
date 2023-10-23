@@ -3,6 +3,9 @@ import * as dotenv from 'dotenv';
 
 dotenv.config();
 
+export const USERNAME: string = process.env.USERNAME as string;
+export const PASSWORD: string = process.env.PASSWORD as string;
+
 export default defineConfig({
   testDir: './tests',
   /* Run tests in files in parallel */

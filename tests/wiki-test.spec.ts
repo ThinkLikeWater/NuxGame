@@ -1,6 +1,5 @@
 import { test, expect } from '@playwright/test';
-const USERNAME: string = process.env.USERNAME as string;
-const PASSWORD: string = process.env.PASSWORD as string;
+import {USERNAME, PASSWORD}  from '../playwright.config';
 
 test('Change the language in Wikipedia account', async ({ page }) => {
   await page.goto('https://en.wikipedia.org/wiki/English_Wikipedia');
